@@ -1,0 +1,2 @@
+# propiedades de fondos
+
