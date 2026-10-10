@@ -1,0 +1,274 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PIXELZONE - Videojuegos y Tecnología</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ENCABEZADO Y NAVEGACIÓN -->
+    <header id="inicio">
+
+        <nav class="menu">
+            <h2 class="logo">PIXEL<span>ZONE</span></h2>
+
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#planos">Colores</a></li>
+                <li><a href="#gradientes">Gradientes</a></li>
+                <li><a href="#imagenes">Imágenes</a></li>
+            </ul>
+        </nav>
+
+        <div class="portada">
+            <p class="etiqueta">VIDEOJUEGOS Y TECNOLOGÍA</p>
+
+        
+<!-- FONDOS PLANOS -->
+<section id="planos" class="seccion">
+    <h2>1. Fondos planos o colores sólidos</h2>
+    <p>
+        Los fondos planos utilizan un solo color. En CSS podemos
+        definirlos con nombres de colores, códigos HEX, RGB o RGBA.
+    </p>
+
+    <div class="tarjetas">
+        <article class="tarjeta">
+            <div style="background-color: rgb(180, 8, 237); width: 100%; height: 150px;"></div>
+            <h3>Color HEX</h3>
+            <p><strong>Propiedad:</strong> background-color</p>
+            <code>background-color: #7c3aed</code>
+            <p>Este color morado se define mediante un código hexadecimal.</p>
+        </article>
+
+        <article class="tarjeta">
+            <div style="background-color: rgb(4, 11, 221); width: 100%; height: 150px;"></div>
+            <h3>Color RGB</h3>
+            <p><strong>Propiedad:</strong> background-color</p>
+            <code>background-color: rgb(0, 217, 255);</code>
+            <p>RGB combina rojo, verde y azul para formar un color.</p>
+        </article>
+
+        <article class="tarjeta">
+            <div style="background-color: rgb(239, 7, 188); width: 100%; height: 150px;"></div>
+            <h3>Color RGBA</h3>
+            <p><strong>Propiedad:</strong> background-color</p>
+            <code>background-color: rgba(255, 0, 110, 0.6);</code>
+            <p>RGBA permite controlar la transparencia mediante el valor alfa.</p>
+        </article>
+    </div>
+</section>
+
+<!-- FONDOS CON DEGRADADOS -->
+<section id="gradientes" class="seccion seccion-oscura">
+    <h2>2. Fondos con degradados o gradientes</h2>
+    <p>
+        Los degradados mezclan dos o más colores de manera gradual.
+        Se crean con funciones como linear-gradient() y radial-gradient().
+    </p>
+
+    <div class="tarjetas">
+        <article class="tarjeta">
+            <div class="ejemplo-gradiente gradiente-lineal"></div>
+            <h3>Degradado lineal</h3>
+            <p><strong>Propiedad:</strong> background-image</p>
+            <code>background-image: linear-gradient(90deg, #7c3aed, #00d9ff);</code>
+            <p>Los colores se mezclan siguiendo una dirección.</p>
+        </article>
+
+        <article class="tarjeta">
+            <div class="ejemplo-gradiente gradiente-radial"></div>
+            <h3>Degradado radial</h3>
+            <p><strong>Propiedad:</strong> background-image</p>
+            <code>background-image: radial-gradient(circle, #00d9ff, #17132e);</code>
+            <p>Los colores se distribuyen desde un punto central hacia afuera.</p>
+        </article>
+    </div>
+</section>
+
+<!-- FONDOS CON IMÁGENES -->
+<section id="imagenes" class="seccion">
+    <h2>3. Fondos con imágenes</h2>
+    <p>
+        CSS permite colocar imágenes como fondo y controlar su repetición,
+        posición y tamaño para mejorar la apariencia de una página.
+    </p>
+
+    <div class="tarjetas">
+        <article class="tarjeta">
+            <img
+                class="imagen-tarjeta"
+                src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=900&q=80"
+                alt="Espacio de videojuegos con iluminación"
+            >
+            <h3>Imagen de fondo</h3>
+            <p><strong>Propiedad:</strong> background-image</p>
+            <code>background-image: url("imagen.jpg");</code>
+            <p>Permite utilizar una imagen como fondo de un elemento.</p>
+        </article>
+
+        <article class="tarjeta">
+            <div class="ejemplo-fondo fondo-repeat"></div>
+            <h3>Repetición de imagen</h3>
+            <p><strong>Propiedad:</strong> background-repeat</p>
+            <code>background-repeat: repeat;</code>
+            <p>Repite la imagen para cubrir el espacio disponible.</p>
+        </article>
+
+        <article class="tarjeta">
+            <div class="ejemplo-fondo fondo-position"></div>
+            <h3>Posición de imagen</h3>
+            <p><strong>Propiedad:</strong> background-position</p>
+            <code>background-position: center;</code>
+            <p>Permite elegir dónde se coloca la imagen dentro del elemento.</p>
+        </article>
+
+        <article class="tarjeta">
+            <div class="ejemplo-fondo fondo-size"></div>
+            <h3>Tamaño de imagen</h3>
+            <p><strong>Propiedad:</strong> background-size</p>
+            <code>background-size: cover;</code>
+            <p>Hace que la imagen cubra el área sin dejar espacios vacíos.</p>
+        </article>
+    </div>
+
+    <div class="banner-imagen">
+        <div class="texto-banner">
+            <h3>El universo gamer</h3>
+            <p>
+                Las imágenes de fondo permiten crear ambientes visuales
+                atractivos para páginas de videojuegos y tecnología.
+            </p>
+        </div>
+    </div>
+</section>
+
+
+            <div class="banner-imagen">
+
+                <div class="texto-banner">
+                    <p class="etiqueta">CREATIVIDAD DIGITAL</p>
+
+                    <h3>La tecnología transforma nuestras ideas</h3>
+
+                    <p>
+                        Un buen fondo puede convertir una página sencilla
+                        en una experiencia visual atractiva.
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="tarjetas propiedades">
+
+                <div class="tarjeta propiedad">
+                    <h3>background-image</h3>
+                    <p>
+                        Permite colocar una imagen como fondo de
+                        un elemento.
+                    </p>
+                </div>
+
+                <div class="tarjeta propiedad">
+                    <h3>background-repeat</h3>
+                    <p>
+                        Determina si la imagen se repite o aparece
+                        una sola vez.
+                    </p>
+                </div>
+
+                <div class="tarjeta propiedad">
+                    <h3>background-position</h3>
+                    <p>
+                        Define la posición de la imagen dentro
+                        del elemento.
+                    </p>
+                </div>
+
+                <div class="tarjeta propiedad">
+                    <h3>background-size</h3>
+                    <p>
+                        Permite ajustar el tamaño de la imagen,
+                        por ejemplo, con el valor cover.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECCIÓN 4: DISEÑO CREATIVO -->
+        <section class="seccion seccion-oscura">
+
+            <p class="etiqueta">04 / INNOVACIÓN</p>
+
+            <h2>El futuro del mundo digital</h2>
+
+            <p class="descripcion">
+                Los videojuegos y la tecnología siguen evolucionando.
+                El diseño web permite presentar ideas de manera
+                creativa mediante colores, imágenes y efectos visuales.
+                Los fondos CSS3 ayudan a construir experiencias
+                digitales originales y atractivas.
+            </p>
+
+            <div class="tarjetas">
+
+                <div class="tarjeta gradiente-lineal">
+                    <h3>Creatividad</h3>
+                    <p>
+                        Diseños únicos que transmiten personalidad
+                        y llaman la atención del visitante.
+                    </p>
+                </div>
+
+                <div class="tarjeta gradiente-radial">
+                    <h3>Innovación</h3>
+                    <p>
+                        Nuevas formas de combinar colores y
+                        elementos visuales en una página.
+                    </p>
+                </div>
+
+                <div class="tarjeta fondo-hex">
+                    <h3>Experiencia digital</h3>
+                    <p>
+                        Una presentación organizada que facilita
+                        la navegación y la lectura del contenido.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- CONCLUSIÓN -->
+        <section class="conclusion">
+
+            <p class="etiqueta">DISEÑA TU PROPIO MUNDO</p>
+
+            <h2>¡La creatividad no tiene límites!</h2>
+
+            <p>
+                En este proyecto aprendimos a utilizar fondos planos,
+                degradados e imágenes con CSS3 para crear una página
+                web original sobre videojuegos y tecnología.
+            </p>
+
+            <a href="#inicio" class="boton">VOLVER AL INICIO ↑</a>
+
+        </section>
+
+    </div>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <h3>PIXEL<span>ZONE</span></h3>
+        <p>Proyecto escolar: Propiedades de fondo en CSS3.</p>
+        <p>Desarrollado con HTML5 y CSS3.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,161 @@
+body {
+    background-color: black !important;
+    color: white !important;
+}
+
+h2 {
+    color: #00d9ff !important;
+}
+css
+/* EJEMPLOS DE FONDOS PLANOS */
+.ejemplo-color {
+    height: 150px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.color-hex {
+    background-color: #7c3aed;
+}
+
+.color-rgb {
+    background-color: rgb(0, 217, 255);
+}
+
+.color-rgba {
+    background-color: rgba(255, 0, 110, 0.6);
+}
+
+/* EJEMPLOS DE DEGRADADOS */
+.ejemplo-gradiente {
+    height: 150px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+.gradiente-lineal {
+    background-image: linear-gradient(
+        90deg,
+        #7c3aed,
+        #00d9ff
+    );
+}
+
+.gradiente-radial {
+    background-image: radial-gradient(
+        circle,
+        #00d9ff,
+        #17132e
+    );
+}
+
+/* IMÁGENES */
+.imagen-tarjeta {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
+
+/* EJEMPLO DE background-repeat */
+.ejemplo-fondo {
+    height: 150px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    background-image: url(
+        "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=300&q=80"
+    );
+}
+
+.fondo-repeat {
+    background-repeat: repeat;
+    background-size: 100px 70px;
+}
+
+/* EJEMPLO DE background-position */
+.fondo-position {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* EJEMPLO DE background-size */
+.fondo-size {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* BANNER CON IMAGEN DE FONDO */
+.banner-imagen {
+    min-height: 300px;
+    margin-top: 30px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 16px;
+
+    background-image:
+        linear-gradient(
+            rgba(10, 8, 30, 0.45),
+            rgba(10, 8, 30, 0.85)
+        ),
+        url("https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=1400&q=80");
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.texto-banner {
+    max-width: 650px;
+    color: white;
+}
+
+.texto-banner h3 {
+    color: #00d9ff;
+    font-size: 28px;
+}
+
+/* TEXTO Y CÓDIGO DENTRO DE LAS TARJETAS */
+.tarjeta code {
+    display: block;
+    overflow-wrap: anywhere;
+    margin: 12px 0;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #111827;
+    color: #00d9ff;
+    font-size: 13px;
+}
+
+.tarjeta h3 {
+    color: #00d9ff;
+}
+
+.tarjeta p {
+    line-height: 1.6;
+}
+
+css
+/* COLORES DE FONDOS PLANOS */
+
+#planos .tarjetas article:nth-child(1) .ejemplo-color {
+    background-color: #7c3aed !important;
+    background-image: none !important;
+}
+
+#planos .tarjetas article:nth-child(2) .ejemplo-color {
+    background-color: #1207ea(0, 217, 255) !important;
+    background-image: none !important;
+}
+
+#planos .tarjetas article:nth-child(3) .ejemplo-color {
+    background-color: #eb059e(255, 0, 110, 0.6) !important;
+    background-image: none !important;
+}
+
